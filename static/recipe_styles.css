@@ -1,0 +1,97 @@
+
+
+header{
+    position: static;
+    top: 0px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 10vh;
+    background-color: black;
+    font-family: fantasy;
+    color: white;
+    text-align: center;
+}
+.button {
+    
+    color: blueviolet;
+    position: absolute;
+    top:30px ;
+    right:100px ;
+    border-radius: 600;
+    align-items: center;
+    justify-content: flex-end;
+}
+.button:hover {
+    background-color: #00FDFC; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+body {
+    background-image: url(images/trippy\ house.jpg); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+
+
+section {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+#submit {
+   text-align: center;
+}
+#submit:hover {
+    background-color: #00FDFC; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+}
+
+footer {
+    position: static;
+    top: 0px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 10vh;
+    background-color: black;
+    font-family: fantasy;
+    color: white;
+    text-align: center;
+}

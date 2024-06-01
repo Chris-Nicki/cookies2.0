@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+    <title>NOT Your Classic Chocolate Chip Cookies</title>
+    <link rel="stylesheet" href="./static/recipe_styles.css"   >
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A step by step guide to the BEST chocolate chip cookies">
+        
+</head>
+<body>
+    <header>
+        <p>NOT Your Classic Cookies&comma;For People Who Eat Outside the Box!</p>
+        <div class="button">
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><button type="button">Monthly Recipe!</button></a>
+    </header>
+    <main>
+        <div id="Top">
+        <h1><b>Recipe Submission</b></h1>
+        <p>Submit your recipe for a chance to be featured as our monthly recipe!</p>
+        </div>
+    <section>
+        <form>
+        <h3><b>User Info</b></h3>
+
+        <label for="username">Username:</label>
+        <input 
+            type="text"
+            id="username"
+            name="username"
+            placeholder="Username HERE!"
+            autocomplete="on"
+            pattern="[\W].*"
+            title="Please provide a user name"
+            required>
+            <div role="alert" aria-live="assertive"></div>
+        <br>
+
+        <label for="email">Email:</label>
+        <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter email HERE!"
+            autocomplete="off"
+            pattern="[\w]+@[\w]+.com"
+            title="Please enter a valid email!"
+            required>
+            <div role="alert" aria-live="assertive"></div>
+        <br>
+
+        <label for="recipe-name">Recipe Name:</label>
+        <input 
+            type="text"
+            id="recipe-name"
+            name="recipe-name"
+            placeholder="Please enter recipe name"
+            autocomplete="on"
+            pattern="[\W].*"
+            title="Please provide recipe name"
+            required>
+            <div role="alert" aria-live="assertive"></div>
+        <br>
+
+        <div id="ingredients">
+            <label for="ingredients">Ingredients</label>
+            <br>
+            <textarea
+                id="ingredients"
+                name="ingredients"
+                rows="20"
+                cols="100"steps
+                placeholder="Please enter ingredients needed for this recipe."
+                required>
+            </textarea>
+        </div>    
+            <br>
+
+        <div id="steps">
+            <label for="steps">Steps</label>
+            <br>
+            <textarea
+                id="steps"
+                name="steps"
+                rows="20"
+                cols="100"
+                placeholder="Please enter steps to preparing this recipe."
+                required>
+            </textarea>
+        </div>    
+            <br>
+            <button id="submit" type="submit">Submit</button>
+        </section>
+    
+    <p> &copy; Not Your Classic Cookies!</p>
+    </form> 
+    <footer><p><i>NOT Your Classic Chocolate Chip Cookies! are a great option for adventurous bakers who 
+    want to explore new flavors and textures.  With a little planning and an open mind, you can create 
+    delicious and unique cookies that will surprise and delight your taste buds.    
+    </i></p></footer>
+
+    </main>
+</body>
+</html>
